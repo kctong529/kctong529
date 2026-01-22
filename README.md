@@ -1,24 +1,24 @@
 # Hi there, I'm Ki Chun 👋
 
-I’m a third-year Digital Systems and Design student at Aalto University, passionate about software development, embedded systems, and networking. I enjoy building full-stack systems that bridge hardware and software, with an eye toward usability and performance.
+I’m a third-year **Digital Systems and Design** student at **Aalto University**, focused on turning real user needs into clear domain models and systems that actually solve the right problem.
 
-## 🚀 About Me
+## 🌱 Sisukas — Course Discovery & Planning Platform
 
-- 🔭 Working on my final project: a desktop video chat prototype using QUIC for seamless handoff between Wi-Fi and cellular networks.
-- 🌱 Maintaining Sisukas, a lightweight course filtering tool with potential to become a full-fledged course planning platform with user management, branching off a couple of npm packages along the way.
-- 🎵 Polishing a portable ESP32-based audio recorder: optimizing signal processing, power efficiency and custom PCB design.
-- 👯 Open to collaborating on impactful projects.
-- 💬 Ask me about web development, networking, embedded programming, or security.
-- 📫 You can reach me at [kichun.tong@aalto.fi](mailto:kichun.tong@aalto.fi)
-- ⚡ Fun fact: I love playing guitar (though I’m still learning 😄).
+Creator and maintainer of **Sisukas**, a production-grade course discovery and study planning system used alongside SISU at Aalto.
 
-## 🛠️ Technologies & Tools
+- Built around a planning-first domain model (Plans, Blocks, Schedule Pairs, Decision Slots)
+- Models trade-offs explicitly instead of hiding them behind “optimal” schedules
+- Schedule Pairs engine generates and ranks valid combinations from domain constraints
+- Two-source data architecture (cached metadata + real-time schedules)
+- Public APIs and a type-safe Python SDK
+- Fully deployed system:
+  - backend services, frontend, and managed database
+  - CI/CD with environment isolation (dev / prod)
+  - defense-in-depth security (route-level auth + database RLS)
 
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Scala](https://img.shields.io/badge/-Scala-DC322F?style=flat-square&logo=scala&logoColor=white)
+🔗 Live: https://sisukas.eu  
+🔗 Code & docs: https://github.com/kctong529/sisukas
 
-Thanks for visiting, feel free to explore my work!
+---
+
+If you care about systems that make trade-offs explicit, survive real-world constraints, and are actually deployed and maintained, feel free to take a look :)
