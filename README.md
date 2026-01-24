@@ -10,7 +10,7 @@ Creator and maintainer of **Sisukas**, a production-grade course discovery and s
 - Models trade-offs explicitly instead of hiding them behind “optimal” schedules
 - Schedule Pairs engine generates and ranks valid combinations from domain constraints
 - Two-source data architecture (cached metadata + real-time schedules)
-- Public APIs and a type-safe Python SDK
+- Public APIs and a type-safe Python library
 - Fully deployed system:
   - backend services, frontend, and managed database
   - CI/CD with environment isolation (dev / prod)
