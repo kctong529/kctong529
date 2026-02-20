@@ -1,20 +1,26 @@
 # Hi there, I'm Ki Chun 👋
 
-I’m a third-year **Digital Systems and Design** student at **Aalto University**, focused on turning real user needs into clear domain models and systems that actually solve the right problem.
+I’m a third-year Digital Systems and Design student at Aalto University. I’m interested in domain modeling, constraint systems, and building production software that handles real-world complexity.
 
-## 🌱 Sisukas — Course Discovery & Planning Platform
+## 🌱 Sisukas — Constraint-Aware Course Planning
 
-Creator and maintainer of **Sisukas**, a production-grade course discovery and study planning system used alongside SISU at Aalto.
+Creator and maintainer of **Sisukas**, a production course discovery and planning system built to coexist with SISU at Aalto.
 
-- Built around a planning-first domain model (Plans, Blocks, Schedule Pairs, Decision Slots)
-- Models trade-offs explicitly instead of hiding them behind “optimal” schedules
-- Schedule Pairs engine generates and ranks valid combinations from domain constraints
-- Two-source data architecture (cached metadata + real-time schedules)
-- Public APIs and a type-safe Python library
-- Fully deployed system:
-  - backend services, frontend, and managed database
-  - CI/CD with environment isolation (dev / prod)
-  - defense-in-depth security (route-level auth + database RLS)
+**Core system design**
+
+* Planning-first domain model (Plans, Blocks, Schedule Pairs, Decision Slots)
+* Deterministic schedule combination & ranking engine
+* Explicit trade-offs instead of "optimal" schedules
+* Active + historical datasets with invariant-based design
+
+**Architecture & infrastructure**
+
+* TypeScript (Express) backend + Svelte frontend
+* Public FastAPI services + type-safe Python client
+* PostgreSQL (Supabase) with RLS
+* Controlled data promotion (dev → prod) via CI workflows
+* Snapshot & backfill pipelines with single-writer guarantees
+* Health checks with build metadata
 
 🔗 Live: https://sisukas.eu  
 🔗 Code & docs: https://github.com/kctong529/sisukas
