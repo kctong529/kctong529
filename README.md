@@ -2,25 +2,17 @@
 
 I’m a third-year Digital Systems and Design student at Aalto University. I’m interested in domain modeling, constraint systems, and building production software that handles real-world complexity.
 
-## 🌱 Sisukas — Constraint-Aware Course Planning
+## 🌱 Sisukas — Constraint-Aware Course Planning System
 
-Creator and maintainer of **Sisukas**, a production course discovery and planning system built to coexist with SISU at Aalto.
+Designed and built a production course discovery & planning platform used alongside SISU at Aalto.
 
-**Core system design**
-
-* Planning-first domain model (Plans, Blocks, Schedule Pairs, Decision Slots)
-* Deterministic schedule combination & ranking engine
-* Explicit trade-offs instead of "optimal" schedules
-* Active + historical datasets with invariant-based design
-
-**Architecture & infrastructure**
-
-* TypeScript (Express) backend + Svelte frontend
-* Public FastAPI services + type-safe Python client
-* PostgreSQL (Supabase) with RLS
-* Controlled data promotion (dev → prod) via CI workflows
-* Snapshot & backfill pipelines with single-writer guarantees
-* Health checks with build metadata
+* Domain-driven core (Plans, Blocks, Schedule Pairs, Decision Slots)
+* Deterministic constraint-combination & ranking engine (no fake "optimal" schedules)
+* Dual-dataset architecture (active + append-only historical), disjoint by construction
+* Snapshot “patch layer” for missing instances — non-canonical data only graduates via deterministic CI backfill
+* TypeScript (Express) backend, Svelte frontend, PostgreSQL (RLS) with DB-enforced invariants
+* Offline-first PWA: course browsing works without internet via versioned cached datasets
+* Fully deployed with environment isolation + health-verified releases
 
 🔗 Live: https://sisukas.eu  
 🔗 Code & docs: https://github.com/kctong529/sisukas
