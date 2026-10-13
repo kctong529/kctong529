@@ -1,22 +1,26 @@
 # Hi there, I'm Ki Chun 👋
 
-I’m a third-year Digital Systems and Design student at Aalto University. I’m interested in domain modeling, constraint systems, and building production software that handles real-world complexity.
+I'm a Master's student in Computer Science at Aalto University, with a Bachelor's degree in Digital Systems and Design.
+
+I'm interested in software architecture, domain modeling, constraint systems, and building reliable software that handles real-world complexity. I enjoy working across the stack, from backend systems and data modeling to user-facing applications.
 
 ## 🌱 Sisukas — Constraint-Aware Course Planning System
 
-Designed and built a production course discovery & planning platform used alongside SISU at Aalto.
+I design and develop [Sisukas](https://sisukas.eu), a course discovery and planning platform built to complement Aalto University's SISU system.
 
-* Domain-driven core (Plans, Blocks, Schedule Pairs, Decision Slots)
-* Deterministic constraint-combination & ranking engine (no fake "optimal" schedules)
-* Dual-dataset architecture (active + append-only historical), disjoint by construction
-* Snapshot “patch layer” for missing instances — non-canonical data only graduates via deterministic CI backfill
-* TypeScript (Express) backend, Svelte frontend, PostgreSQL (RLS) with DB-enforced invariants
-* Offline-first PWA: course browsing works without internet via versioned cached datasets
-* Fully deployed with environment isolation + health-verified releases
+Some of the engineering challenges I've worked on:
 
-🔗 Live: https://sisukas.eu  
-🔗 Code & docs: https://github.com/kctong529/sisukas
+- **Domain modeling:** Plans, Blocks, Schedule Pairs, and Decision Slots as explicit domain concepts
+- **Constraint reasoning:** Deterministic schedule combination and ranking without claiming a universally optimal solution
+- **Data architecture:** Separate active and append-only historical datasets, with database-enforced invariants
+- **Data consistency:** Snapshot patch layers and deterministic CI backfills for missing course instances
+- **Full-stack development:** TypeScript, Express, Svelte, and PostgreSQL with row-level security
+- **Offline support:** A PWA with versioned cached datasets for offline course browsing
+- **Production operations:** Environment isolation, automated deployments, and health-verified releases
+
+🔗 **Live:** https://sisukas.eu  
+🔗 **Source code & documentation:** https://github.com/kctong529/sisukas
 
 ---
 
-If you care about systems that make trade-offs explicit, survive real-world constraints, and are actually deployed and maintained, feel free to take a look :)
+I'm always interested in projects where correctness, maintainability, and practical engineering trade-offs matter.
