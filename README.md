@@ -4,7 +4,7 @@ I'm a Master's student in Computer Science at Aalto University, with a Bachelor'
 
 I'm interested in software architecture, domain modeling, constraint systems, and building reliable software that handles real-world complexity. I enjoy working across the stack, from backend systems and data modeling to user-facing applications.
 
-![kctong529's Stats](https://github-readme-stats.vercel.app/api?username=kctong529&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
+![kctong529's Stats](https://github-readme-stats.vercel.app/api?username=kctong529&theme=buefy&show_icons=true&hide_border=false&count_private=true)
 
 ## 🌱 Sisukas — Constraint-Aware Course Planning System
 
