@@ -1,28 +1,34 @@
 # Hi there, I'm Ki Chun 👋
 
-I'm a Master's student in Computer Science at Aalto University, with a Bachelor's degree in Digital Systems and Design.
+I'm a Computer Science Master's student at Aalto University, with a Bachelor's degree in Digital Systems and Design.
 
-I'm interested in software architecture, domain modeling, constraint systems, and building reliable software that handles real-world complexity. I enjoy working across the stack, from backend systems and data modeling to user-facing applications.
+I enjoy building reliable, maintainable systems, with particular interests in software architecture, domain modeling, and systems engineering. I naturally gravitate toward technical leadership—planning milestones, organizing development, and turning complex requirements into modular, working software.
 
 ![kctong529's Stats](https://github-readme-stats.vercel.app/api?username=kctong529&theme=buefy&show_icons=true&hide_border=false&count_private=true)
 
-## 🌱 Sisukas — Constraint-Aware Course Planning System
+## 🚀 Featured Projects
 
-I design and develop [Sisukas](https://sisukas.eu), a course discovery and planning platform built to complement Aalto University's SISU system.
+### 🌱 [sisukas](https://github.com/kctong529/sisukas)
+**Creator & Lead Developer** · [Live App](https://sisukas.eu)
 
-Some of the engineering challenges I've worked on:
+An open-source course planning platform I've independently developed and maintained for over 1.5 years. My work spans temporal data modeling, constraint-aware scheduling, robust data ingestion and backfilling, and production operations.
 
-- **Domain modeling:** Plans, Blocks, Schedule Pairs, and Decision Slots as explicit domain concepts
-- **Constraint reasoning:** Deterministic schedule combination and ranking without claiming a universally optimal solution
-- **Data architecture:** Separate active and append-only historical datasets, with database-enforced invariants
-- **Data consistency:** Snapshot patch layers and deterministic CI backfills for missing course instances
-- **Full-stack development:** TypeScript, Express, Svelte, and PostgreSQL with row-level security
-- **Offline support:** A PWA with versioned cached datasets for offline course browsing
-- **Production operations:** Environment isolation, automated deployments, and health-verified releases
+`TypeScript` · `Svelte` · `FastAPI` · `PostgreSQL` · `Google Cloud`
 
-🔗 **Live:** https://sisukas.eu  
-🔗 **Source code & documentation:** https://github.com/kctong529/sisukas
+### 🗺️ [mapmory](https://github.com/TravelMapMory)
+**Technical Lead & Full-Stack Developer** · [Frontend](https://github.com/TravelMapMory/mapmory-frontend) · [Backend](https://github.com/TravelMapMory/mapmory-backend)
+
+A travel photo mapping application developed by a three-person team. I coordinate development and contribute to backend architecture, authentication, persistence, cloud deployment, and planned multi-provider geolocation integration.
+
+`Go` · `React` · `PostgreSQL` · `Firebase` · `Google Cloud`
+
+### 🤖 [amaze-nav](https://github.com/kctong529/amaze-nav)
+**Project Lead & Robotics Software Developer**
+
+A ROS-based autonomous navigation project focused on turning LiDAR measurements into reliable navigation decisions. I iteratively developed geometric passability reasoning, explored motion-planning strategies, and integrated feedback control through simulation-based testing.
+
+`Python` · `ROS` · `LiDAR` · `Pure Pursuit` · `PID`
 
 ---
 
-I'm always interested in projects where correctness, maintainability, and practical engineering trade-offs matter.
+I'm particularly interested in systems engineering and cross-disciplinary projects where thoughtful design meets hands-on implementation.
