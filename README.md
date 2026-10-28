@@ -2,33 +2,28 @@
 
 I'm a Computer Science Master's student at Aalto University, with a Bachelor's degree in Digital Systems and Design.
 
-I enjoy building reliable, maintainable systems, with particular interests in software architecture, domain modeling, and systems engineering. I naturally gravitate toward technical leadership—planning milestones, organizing development, and turning complex requirements into modular, working software.
+I enjoy building reliable, maintainable software, especially when it involves software architecture, domain modeling, and systems engineering. I also like taking on technical leadership roles, from planning milestones to turning complex requirements into well-structured, working systems.
 
-![kctong529's Stats](https://github-readme-stats.vercel.app/api?username=kctong529&theme=buefy&show_icons=true&hide_border=false&count_private=true)
-
-## 🚀 Featured Projects
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kctong529&theme=buefy&show_icons=true&hide_border=false&count_private=true)
 
 ### 🌱 [sisukas](https://github.com/kctong529/sisukas)
-**Creator & Lead Developer** · [Live App](https://sisukas.eu)
 
-An open-source course planning platform I've independently developed and maintained for over 1.5 years. My work spans temporal data modeling, constraint-aware scheduling, robust data ingestion and backfilling, and production operations.
+A course planning platform used by Aalto University students, which I've independently developed and maintained for over 1.5 years. It brings together constraint-aware scheduling, temporal data modeling, reliable data pipelines, and hands-on production experience.
 
 `TypeScript` · `Svelte` · `FastAPI` · `PostgreSQL` · `Google Cloud`
 
 ### 🗺️ [mapmory](https://github.com/TravelMapMory)
-**Technical Lead & Full-Stack Developer** · [Frontend](https://github.com/TravelMapMory/mapmory-frontend) · [Backend](https://github.com/TravelMapMory/mapmory-backend)
 
-A travel photo mapping application developed by a three-person team. I coordinate development and contribute to backend architecture, authentication, persistence, cloud deployment, and planned multi-provider geolocation integration.
+A travel photo mapping app built by a team of three. I help coordinate development while working hands-on with backend architecture, authentication, database persistence, cloud deployment, and geolocation services.
 
-`Go` · `React` · `PostgreSQL` · `Firebase` · `Google Cloud`
+`Go` · `React` · `PostgreSQL` · `Firebase`
 
 ### 🤖 [amaze-nav](https://github.com/kctong529/amaze-nav)
-**Project Lead & Robotics Software Developer**
 
-A ROS-based autonomous navigation project focused on turning LiDAR measurements into reliable navigation decisions. I iteratively developed geometric passability reasoning, explored motion-planning strategies, and integrated feedback control through simulation-based testing.
+A ROS-based autonomous navigation project that turns LiDAR measurements into navigation decisions. I worked on geometric passability analysis, experimented with motion-planning strategies, and refined feedback control through iterative simulation and testing.
 
 `Python` · `ROS` · `LiDAR` · `Pure Pursuit` · `PID`
 
 ---
 
-I'm particularly interested in systems engineering and cross-disciplinary projects where thoughtful design meets hands-on implementation.
+I'm always interested in systems engineering and cross-disciplinary projects that bring together thoughtful design, practical engineering, and a bit of experimentation.
