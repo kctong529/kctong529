@@ -4,7 +4,7 @@ I'm a Computer Science Master's student at Aalto University, with a Bachelor's d
 
 I enjoy building reliable, maintainable software, especially when it involves software architecture, domain modeling, and systems engineering. I also like taking on technical leadership roles, from planning milestones to turning complex requirements into well-structured, working systems.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kctong529&theme=buefy&show_icons=true&hide_border=false&count_private=true)
+![GitHub Stats](https://github-stats-extended.vercel.app/api?username=kctong529&theme=buefy&show_icons=true&hide_border=false&count_private=true)
 
 ### 🌱 [sisukas](https://github.com/kctong529/sisukas)
 
